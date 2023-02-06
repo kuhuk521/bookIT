@@ -23,6 +23,9 @@ class SearchBook extends StatelessWidget {
                   hintText: 'Enter the name of the book',
                 ),
               ),
+              SizedBox(
+                height: 10,
+              ),
               RaisedButton(
                 onPressed: (){},
                 child: Text('SEARCH', style: TextStyle(color: Colors.white, fontSize: 20),),
@@ -42,6 +45,9 @@ class SearchBook extends StatelessWidget {
                   border: OutlineInputBorder(),
                   hintText: 'Enter the name of the author',
                 ),
+              ),
+              SizedBox(
+                height: 10,
               ),
               RaisedButton(
                 onPressed: (){},

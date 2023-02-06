@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
         fontFamily: 'serif',
         primarySwatch: Colors.amber,
       ),
-      home: StartScreen(),
+      home: HomePage(),
     );
   }
 }
@@ -42,6 +42,9 @@ class StartScreen extends StatelessWidget {
                   onPressed: (){},
                   child: Text('SIGN UP', style: TextStyle(color: Colors.white, fontSize: 20),),
                   color: buttonColor,
+                ),
+                SizedBox(
+                  height: 10,
                 ),
                 RaisedButton(
                   onPressed: (){},

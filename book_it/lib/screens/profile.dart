@@ -32,20 +32,32 @@ class Profile extends StatelessWidget {
                 child: Text('YOUR LISTINGS', style: TextStyle(color: Colors.white, fontSize: 20),),
                 color: buttonColor,
               ),
+              SizedBox(
+                height: 10,
+              ),
               RaisedButton(
                 onPressed: (){},
                 child: Text('YOUR ORDERS', style: TextStyle(color: Colors.white, fontSize: 20),),
                 color: buttonColor,
+              ),
+              SizedBox(
+                height: 10,
               ),
               RaisedButton(
                 onPressed: (){},
                 child: Text('EDIT PROFILE', style: TextStyle(color: Colors.white, fontSize: 20),),
                 color: buttonColor,
               ),
+              SizedBox(
+                height: 10,
+              ),
               RaisedButton(
                 onPressed: (){},
                 child: Text('CONTACT US', style: TextStyle(color: Colors.white, fontSize: 20),),
                 color: buttonColor,
+              ),
+              SizedBox(
+                height: 10,
               ),
               RaisedButton(
                 onPressed: (){},
