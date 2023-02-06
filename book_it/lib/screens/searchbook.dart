@@ -13,9 +13,9 @@ class SearchBook extends StatelessWidget {
         children: [
           Column(
             children: [
-              Text('Search by name of the book', style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold),),
+              Text('Search by\nNAME OF THE BOOK', style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold), textAlign: TextAlign.center,),
               SizedBox(
-                height: 10,
+                height: 20,
               ),
               TextField(
                 decoration: InputDecoration(
@@ -33,9 +33,9 @@ class SearchBook extends StatelessWidget {
           Text('OR', style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold)),
           Column(
             children: [
-              Text('Search by name of the author', style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold),),
+              Text('Search by\nNAME OF THE AUTHOR', style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold,), textAlign: TextAlign.center,),
               SizedBox(
-                height: 10,
+                height: 20,
               ),
               TextField(
                 decoration: InputDecoration(

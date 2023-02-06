@@ -20,7 +20,10 @@ class CategoryBook extends StatelessWidget {
             onPressed: (){},
             child: Row(
               children: [
-                Image.network('https://i.insider.com/61eecc51d265300018045c06?width=700', height: 100, width: 100, ),
+                CircleAvatar(
+                  backgroundImage: NetworkImage('https://i.insider.com/61eecc51d265300018045c06?width=700',),
+                  radius: 50,
+                ),
                 SizedBox(
                   width: 15,
                 ),
@@ -47,7 +50,10 @@ class CategoryBook extends StatelessWidget {
             onPressed: (){},
             child: Row(
               children: [
-                Image.network('http://ww2.kqed.org/mindshift/wp-content/uploads/sites/23/2012/09/1375685165_0026af5223_z-620x389.jpg', height: 100, width: 100, ),
+                CircleAvatar(
+                  backgroundImage: NetworkImage('http://ww2.kqed.org/mindshift/wp-content/uploads/sites/23/2012/09/1375685165_0026af5223_z-620x389.jpg',),
+                  radius: 50,
+                ),
                 SizedBox(
                   width: 15,
                 ),
@@ -74,7 +80,10 @@ class CategoryBook extends StatelessWidget {
             onPressed: (){},
             child: Row(
               children: [
-                Image.network('https://cdn2.stylecraze.com/wp-content/uploads/2019/02/Banner.jpg', height: 100, width: 100, ),
+                CircleAvatar(
+                  backgroundImage: NetworkImage('https://cdn2.stylecraze.com/wp-content/uploads/2019/02/Banner.jpg',),
+                  radius: 50,
+                ),
                 SizedBox(
                   width: 15,
                 ),

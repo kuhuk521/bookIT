@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
         fontFamily: 'serif',
         primarySwatch: Colors.amber,
       ),
-      home: HomePage(),
+      home: StartScreen(),
     );
   }
 }
@@ -33,31 +33,22 @@ class StartScreen extends StatelessWidget {
         width: double.infinity,
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.center,
-          mainAxisAlignment: MainAxisAlignment.center,
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: [
-            Text("Welcome to", style: TextStyle(fontSize: 30, fontFamily: 'sans serif', fontWeight: FontWeight.bold, color: Colors.white),),
-            SizedBox(
-              height: 5,
-            ),
-            Text("Book IT!!", style: TextStyle(fontSize: 50, fontFamily: 'serif', fontWeight: FontWeight.bold, fontStyle: FontStyle.italic, color: Colors.white),),
-            SizedBox(
-              height: 150,
-            ),
-            Container(
-              child: Column(
-                children: [
-                  RaisedButton(
-                    onPressed: (){},
-                    child: Text('SIGN UP', style: TextStyle(color: Colors.white, fontSize: 20),),
-                    color: buttonColor,
-                  ),
-                  RaisedButton(
-                    onPressed: (){},
-                    child: Text('LOGIN', style: TextStyle(color: Colors.white, fontSize: 20),),
-                    color: buttonColor,
-                  )
-                ],
-              ),
+            Image.asset('images/BookIT.png'),
+            Column(
+              children: [
+                RaisedButton(
+                  onPressed: (){},
+                  child: Text('SIGN UP', style: TextStyle(color: Colors.white, fontSize: 20),),
+                  color: buttonColor,
+                ),
+                RaisedButton(
+                  onPressed: (){},
+                  child: Text('LOGIN', style: TextStyle(color: Colors.white, fontSize: 20),),
+                  color: buttonColor,
+                )
+              ],
             )
           ],
         ),

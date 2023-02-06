@@ -39,8 +39,7 @@ class _HomePageState extends State<HomePage> {
             onPressed: (){},
             icon: Icon(
               Icons.add,
-              color: Colors.white,
-              size: 30,
+              size: 25,
             ),
           ),
         ]
@@ -53,7 +52,7 @@ class _HomePageState extends State<HomePage> {
         unselectedItemColor: Colors.black,
         items: [
           BottomNavigationBarItem(
-            icon: Icon(Icons.home),
+            icon: Icon(Icons.home,),
             label: 'Home',
           ),
           BottomNavigationBarItem(
