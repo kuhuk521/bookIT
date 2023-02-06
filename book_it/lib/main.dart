@@ -1,4 +1,5 @@
 import 'package:book_it/constants.dart';
+import 'package:book_it/screens/home.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -13,6 +14,7 @@ class MyApp extends StatelessWidget {
       title: 'BOOK IT',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
+        fontFamily: 'serif',
         primarySwatch: Colors.amber,
       ),
       home: HomePage(),
@@ -20,8 +22,8 @@ class MyApp extends StatelessWidget {
   }
 }
 
-class HomePage extends StatelessWidget {
-  const HomePage({Key? key}) : super(key: key);
+class StartScreen extends StatelessWidget {
+  const StartScreen({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
